@@ -1,10 +1,5 @@
 pipeline {
-    agent {
-        docker {
-            image 'node:22.12.0-alpine3.20'
-            args '-v /tmp:/tmp' // Optional: Mount a volume if needed
-        }
-    }
+    agent any
 
     stages {
         stage('Checkout') {
