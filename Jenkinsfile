@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Run App') {
             steps {
-                sh 'node number-guessing-game.js'
+                sh 'node guessingGame.js'
             }
         }
     }
