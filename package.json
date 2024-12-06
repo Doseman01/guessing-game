@@ -1,0 +1,25 @@
+{
+  "name": "no-guessing-game",
+  "version": "1.0.0",
+  "description": "This is a guessing game",
+  "main": "guessingGame.js",
+  "scripts": {
+    "test": "node "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Doseman01/guessing-game.git"
+  },
+  "keywords": [
+    "\"number\"",
+    "\"guessing\"",
+    "\"game\"",
+    "\"nodejs\""
+  ],
+  "author": "qudus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Doseman01/guessing-game/issues"
+  },
+  "homepage": "https://github.com/Doseman01/guessing-game#readme"
+}
