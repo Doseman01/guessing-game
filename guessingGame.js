@@ -11,7 +11,7 @@ const randomNumber = Math.floor(Math.random() * 100) + 1;
 let attempts = 0;
 
 console.log("Welcome to the Number Guessing Game!");
-console.log("Guess a number between 1 and 100.");
+console.log("Guess a number between 2 and 100.");
 
 function askQuestion() {
     rl.question("Enter your guess: ", (answer) => {
