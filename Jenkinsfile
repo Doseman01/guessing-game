@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/Doseman01/guessing-game.git'
+                git branch: 'main', url: 'https://github.com/Doseman01/guessing-game.git'
             }
         }
         stage('Install Dependencies') {
